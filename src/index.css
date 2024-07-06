@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  
+}
+
+body{
+  background-color:#B2C8BA;
+  text-align: center;
+}
+h1{
+  font-family: Candara;
+  font-size: 8vh;
+}
+
+.container{
+  
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  margin: auto;
+  width: 35%;
+  height: 400px;
+  padding: 2%;
+  border-radius: 4%;
+  
+}
+.textbox{
+  grid-area: 1 / 1 / 2 / 5;
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6vh;
+  padding-top: 10px;
+  
+  
+  
+}
+
+.btn-color{
+ 
+}
+
+.equalTo{
+ grid-area: 3/4/7/5;
+ background-color: orangered;
+ color: black;
+
+}
+.buttons{
+  font-size: 6vh;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  
+}
